@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1 class="title">SPLI<br>TTER</h1>
+
+    <div class="calculator">
+
+        <div class="main">
+            <div class="bill">
+            <h2 class="bill__heading"><label for="bill__amount" class="accent-title">Bill</label></h2>
+            <input type="text" name="bill__amount" id="bill__amount" class="bill__amount" >
+            </div>
+
+            <div class="tipp">
+                <h2 class="tip__heading"><label for="" class="accent-title">Select Tip %</label></h2>
+                <div class="tip__btns">
+                    <button type="button" class="btn tip">5%</button>
+                    <button type="button" class="btn tip">10%</button>
+                    <button type="button" class="btn tip">15%</button>
+                    <button type="button" class="btn tip">25%</button>
+                    <button type="button" class="btn tip">50%</button>
+                    <input type="text" name="tip__custom" class="tip__custom" id="tip__custom" placeholder="Custom">
+                </div>
+            </div>    
+
+            <div class="no-of-people">
+                <h2 class="no-of-people__heading"><label for="people-no" class="accent-title">Number of People</label></h2>
+                <input type="text" name="people-no" id="people-no" class="people-no" placeholder="0">
+            </div>
+        </div>
+
+        <div class="second">
+            <div class="tip-amount">
+
+                <div class="txt">
+                    <h2 class="neutral-title">Tip Amount</h2>
+                    <h3 class="accent-title">/ person</h3>
+                    <h2 class="neutral-title">Total</h2>
+                    <h3 class="accent-title">/ person</h3>
+                </div>
+
+                <biv class="txt2">
+                    <h2 class="tip-amount-display">$0.00</h2>
+                    <h2 class="total-amount-display">$0.00</h2>
+                </biv>
+            </div>
+            <button class="btn reset">Reset</button>
+        </div>
+
+    </div>
+ 
+    <script src="js/main.js"></script>
+
+</body>
+</html>
